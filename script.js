@@ -83,15 +83,4 @@ for (let i = 1; i < 21; i++) {
 }
 
 //questao 10
-let strin = "arara"
-function verificarPalindromo(str) {
-    var splitString = str.split("");
-    var reverseArray = splitString.reverse();
-    var joinArray = reverseArray.join("");
-    if (strin == joinArray) {
-        print("Palindromo")
-    } else {
-        print("Não é palindromo")
-    }
-}
-verificarPalindromo(strin)
+// não consegui fazer
